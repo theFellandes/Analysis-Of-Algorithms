@@ -1,0 +1,19 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	
+	
+	
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c52622da_002Dc478_002D49a3_002Db02a_002D9a9da2d353e5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ShellSortTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::386151DD-9DC9-4D35-BB07-31744C57AB36::net5.0::TestSort.Tests.ShellSortTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::386151DD-9DC9-4D35-BB07-31744C57AB36::net5.0::TestSort.Tests.InsertionSortTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::386151DD-9DC9-4D35-BB07-31744C57AB36::net5.0::TestSort.Tests.MergeSortTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::386151DD-9DC9-4D35-BB07-31744C57AB36::net5.0::TestSort.Tests.QuickSortTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::386151DD-9DC9-4D35-BB07-31744C57AB36::net5.0::TestSort.Tests.CountingSortTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::386151DD-9DC9-4D35-BB07-31744C57AB36::net5.0::TestSort.Tests.RadixSortTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::386151DD-9DC9-4D35-BB07-31744C57AB36::net5.0::TestSort.Tests.BinarySearchTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	
+	
+	</wpf:ResourceDictionary>

@@ -1,0 +1,16 @@
+C:\Users\Fellandes\RiderProjects\Analysis Of Algorithms\SortAlgorithms\bin\Debug\net5.0\SortAlgorithms.exe
+C:\Users\Fellandes\RiderProjects\Analysis Of Algorithms\SortAlgorithms\bin\Debug\net5.0\SortAlgorithms.deps.json
+C:\Users\Fellandes\RiderProjects\Analysis Of Algorithms\SortAlgorithms\bin\Debug\net5.0\SortAlgorithms.runtimeconfig.json
+C:\Users\Fellandes\RiderProjects\Analysis Of Algorithms\SortAlgorithms\bin\Debug\net5.0\SortAlgorithms.runtimeconfig.dev.json
+C:\Users\Fellandes\RiderProjects\Analysis Of Algorithms\SortAlgorithms\bin\Debug\net5.0\SortAlgorithms.dll
+C:\Users\Fellandes\RiderProjects\Analysis Of Algorithms\SortAlgorithms\bin\Debug\net5.0\ref\SortAlgorithms.dll
+C:\Users\Fellandes\RiderProjects\Analysis Of Algorithms\SortAlgorithms\bin\Debug\net5.0\SortAlgorithms.pdb
+C:\Users\Fellandes\RiderProjects\Analysis Of Algorithms\SortAlgorithms\obj\Debug\net5.0\SortAlgorithms.csproj.AssemblyReference.cache
+C:\Users\Fellandes\RiderProjects\Analysis Of Algorithms\SortAlgorithms\obj\Debug\net5.0\SortAlgorithms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fellandes\RiderProjects\Analysis Of Algorithms\SortAlgorithms\obj\Debug\net5.0\SortAlgorithms.AssemblyInfoInputs.cache
+C:\Users\Fellandes\RiderProjects\Analysis Of Algorithms\SortAlgorithms\obj\Debug\net5.0\SortAlgorithms.AssemblyInfo.cs
+C:\Users\Fellandes\RiderProjects\Analysis Of Algorithms\SortAlgorithms\obj\Debug\net5.0\SortAlgorithms.csproj.CoreCompileInputs.cache
+C:\Users\Fellandes\RiderProjects\Analysis Of Algorithms\SortAlgorithms\obj\Debug\net5.0\SortAlgorithms.dll
+C:\Users\Fellandes\RiderProjects\Analysis Of Algorithms\SortAlgorithms\obj\Debug\net5.0\ref\SortAlgorithms.dll
+C:\Users\Fellandes\RiderProjects\Analysis Of Algorithms\SortAlgorithms\obj\Debug\net5.0\SortAlgorithms.pdb
+C:\Users\Fellandes\RiderProjects\Analysis Of Algorithms\SortAlgorithms\obj\Debug\net5.0\SortAlgorithms.genruntimeconfig.cache
