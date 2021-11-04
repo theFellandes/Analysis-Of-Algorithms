@@ -161,5 +161,41 @@ namespace TestSort
             int result = Array.IndexOf(intArray, intArray[randomIndex]);
             Assert.AreEqual(result, testValue);
         }
+        
+        [Test]
+        public void BucketSortTest()
+        {
+            var intArray = new int[1000];
+            var result = new int[1000];
+            var random = new Random();
+            for (var i = 0; i < intArray.Length; i++)
+            {
+                intArray[i] = random.Next(1000, 9999);
+                result[i] = intArray[i];
+            }
+
+            //Radix taban, width basamak
+            BucketSort.Sort(intArray);
+            QuickSort.Sort(result);
+            Assert.AreEqual(result, intArray);
+        }
+        
+        [Test]
+        public void BogoSortTest()
+        {
+            var intArray = new int[7];
+            var result = new int[7];
+            var random = new Random();
+            for (var i = 0; i < intArray.Length; i++)
+            {
+                intArray[i] = random.Next(1000, 9999);
+                result[i] = intArray[i];
+            }
+
+            //Radix taban, width basamak
+            BogoSort.Sort(intArray);
+            MergeSort.Sort(result);
+            Assert.AreEqual(result, intArray);
+        }
     }
 }

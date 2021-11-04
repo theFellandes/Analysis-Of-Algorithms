@@ -12,6 +12,8 @@
     &lt;TestId&gt;NUnit3x::386151DD-9DC9-4D35-BB07-31744C57AB36::net5.0::TestSort.Tests.CountingSortTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::386151DD-9DC9-4D35-BB07-31744C57AB36::net5.0::TestSort.Tests.RadixSortTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::386151DD-9DC9-4D35-BB07-31744C57AB36::net5.0::TestSort.Tests.BinarySearchTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::386151DD-9DC9-4D35-BB07-31744C57AB36::net5.0::TestSort.Tests.BucketSortTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::386151DD-9DC9-4D35-BB07-31744C57AB36::net5.0::TestSort.Tests.BogoSortTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	
