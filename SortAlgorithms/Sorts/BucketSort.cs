@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Data.Common;
 
 namespace SortAlgorithms.Sorts
 {
@@ -51,6 +50,44 @@ namespace SortAlgorithms.Sorts
                 if (intArray[i] < minValue)
                     minValue = intArray[i];
             return minValue;
+        }
+
+        //This implementation haven't been tested. Probably works though.
+        public static void Sort2(int[] input)
+        {
+            List<int>[] buckets = new List<int>[10];
+
+            for (int i = 0; i < buckets.Length; i++)
+            {
+                buckets[i] = new List<int>();
+            }
+
+            foreach (var num in input)
+            {
+                buckets[Hash(num)].Add(num);
+            }
+
+            foreach (var bucket in buckets)
+            {
+                bucket.Sort();
+            }
+
+            int j = 0;
+            foreach (var bucket in buckets)
+            {
+                foreach (int value in bucket)
+                {
+                    input[j++] = value;
+                }
+            }
+
+        }
+
+        private static int Hash(int value)
+        {
+            //This can change with the size of the list however in this application we are
+            //sorting only 10's position
+            return value / 10;
         }
     }
 }
