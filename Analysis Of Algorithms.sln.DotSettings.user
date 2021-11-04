@@ -3,7 +3,7 @@
 	
 	
 	
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c52622da_002Dc478_002D49a3_002Db02a_002D9a9da2d353e5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ShellSortTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c52622da_002Dc478_002D49a3_002Db02a_002D9a9da2d353e5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ShellSortTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::386151DD-9DC9-4D35-BB07-31744C57AB36::net5.0::TestSort.Tests.ShellSortTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::386151DD-9DC9-4D35-BB07-31744C57AB36::net5.0::TestSort.Tests.InsertionSortTest&lt;/TestId&gt;&#xD;
@@ -14,6 +14,12 @@
     &lt;TestId&gt;NUnit3x::386151DD-9DC9-4D35-BB07-31744C57AB36::net5.0::TestSort.Tests.BinarySearchTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::386151DD-9DC9-4D35-BB07-31744C57AB36::net5.0::TestSort.Tests.BucketSortTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::386151DD-9DC9-4D35-BB07-31744C57AB36::net5.0::TestSort.Tests.BogoSortTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::386151DD-9DC9-4D35-BB07-31744C57AB36::net5.0::TestSort.Tests.GnomeSortTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ea4e9026_002Dc706_002D4d09_002Da08d_002Dd289c1570ee6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GnomeSortTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::386151DD-9DC9-4D35-BB07-31744C57AB36::net5.0::TestSort.Tests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	

@@ -197,5 +197,39 @@ namespace TestSort
             MergeSort.Sort(result);
             Assert.AreEqual(result, intArray);
         }
+        
+        [Test]
+        public void GnomeSortTest()
+        {
+            var intArray = new int[7];
+            var result = new int[7];
+            var random = new Random();
+            for (var i = 0; i < intArray.Length; i++)
+            {
+                intArray[i] = random.Next(1000, 9999);
+                result[i] = intArray[i];
+            }
+
+            //Radix taban, width basamak
+            GnomeSort.StupidSort(intArray);
+            MergeSort.Sort(result);
+            Assert.AreEqual(result, intArray);
+        }
+        
+        [Test]
+        public void ShuffleSortTest()
+        {
+            var intArray = new int[1000];
+            var result = new int[1000];
+            var random = new Random();
+            for (var i = 0; i < intArray.Length; i++)
+            {
+                intArray[i] = random.Next();
+                result[i] = intArray[i];
+            }
+            CocktailShakerSort.Sort(intArray);
+            Array.Sort(result);
+            Assert.AreEqual(result, intArray);
+        }
     }
 }
