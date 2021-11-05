@@ -20,9 +20,7 @@
 
         private static void Swap(int[] intArray, int index1, int index2)
         {
-            int temp = intArray[index1];
-            intArray[index1] = intArray[index2];
-            intArray[index2] = temp;
+            (intArray[index1], intArray[index2]) = (intArray[index2], intArray[index1]);
         }
     }
 }

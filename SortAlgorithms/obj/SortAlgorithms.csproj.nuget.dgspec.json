@@ -1,34 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fellandes\\RiderProjects\\Analysis Of Algorithms\\SortAlgorithms\\SortAlgorithms.csproj": {}
+    "C:\\Users\\Felladien\\source\\repos\\Analysis-Of-Algorithms\\SortAlgorithms\\SortAlgorithms.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fellandes\\RiderProjects\\Analysis Of Algorithms\\SortAlgorithms\\SortAlgorithms.csproj": {
+    "C:\\Users\\Felladien\\source\\repos\\Analysis-Of-Algorithms\\SortAlgorithms\\SortAlgorithms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fellandes\\RiderProjects\\Analysis Of Algorithms\\SortAlgorithms\\SortAlgorithms.csproj",
+        "projectUniqueName": "C:\\Users\\Felladien\\source\\repos\\Analysis-Of-Algorithms\\SortAlgorithms\\SortAlgorithms.csproj",
         "projectName": "SortAlgorithms",
-        "projectPath": "C:\\Users\\Fellandes\\RiderProjects\\Analysis Of Algorithms\\SortAlgorithms\\SortAlgorithms.csproj",
-        "packagesPath": "C:\\Users\\Fellandes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fellandes\\RiderProjects\\Analysis Of Algorithms\\SortAlgorithms\\obj\\",
+        "projectPath": "C:\\Users\\Felladien\\source\\repos\\Analysis-Of-Algorithms\\SortAlgorithms\\SortAlgorithms.csproj",
+        "packagesPath": "C:\\Users\\Felladien\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Felladien\\source\\repos\\Analysis-Of-Algorithms\\SortAlgorithms\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Fellandes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Felladien\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\Fellandes\\RiderProjects\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

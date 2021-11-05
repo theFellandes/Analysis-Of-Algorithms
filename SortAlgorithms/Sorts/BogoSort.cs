@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace SortAlgorithms.Sorts
 {
@@ -23,11 +24,9 @@ namespace SortAlgorithms.Sorts
             }
         }
 
-        private static void Swap(int[] intArray, int index1, int index2)
+        private static void Swap(IList<int> intArray, int index1, int index2)
         {
-            int temp = intArray[index2];
-            intArray[index2] = intArray[index1];
-            intArray[index1] = temp;
+            (intArray[index2], intArray[index1]) = (intArray[index1], intArray[index2]);
         }
 
         private static bool IsSorted(ref int[] intArray)

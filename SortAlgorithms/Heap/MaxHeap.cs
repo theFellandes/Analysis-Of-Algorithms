@@ -61,11 +61,9 @@ namespace SortAlgorithms.Heap
             int lastHeapIndex = _size - 1;
             for (int i = 0; i < lastHeapIndex; i++)
             {
-                int temp = heap[0];
                 //lastHeapIndex - i is the location of the lastUnsortedIndex
-                heap[0] = heap[lastHeapIndex - i];
-                heap[lastHeapIndex - i] = temp;
-                
+                (heap[0], heap[lastHeapIndex - i]) = (heap[lastHeapIndex - i], heap[0]);
+
                 FixHeapBelow(0, lastHeapIndex - i - 1);
             }
         }
@@ -105,9 +103,7 @@ namespace SortAlgorithms.Heap
                     
                     if (heap[index] < heap[childToSwap])
                     {
-                        int temp = heap[index];
-                        heap[index] = heap[childToSwap];
-                        heap[childToSwap] = temp;
+                        (heap[index], heap[childToSwap]) = (heap[childToSwap], heap[index]);
                     }
 
                     else
@@ -137,12 +133,12 @@ namespace SortAlgorithms.Heap
             heap[index] = newValue;
         }
 
-        public bool IsFull()
+        private bool IsFull()
         {
             return _size == heap.Length;
         }
 
-        public bool IsEmpty()
+        private bool IsEmpty()
         {
             return _size == 0;
         }
