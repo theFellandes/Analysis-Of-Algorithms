@@ -61,6 +61,22 @@ namespace TestSort
         }
         
         [Test]
+        public void RecursiveInsertionSortTest()
+        {
+            var intArray = new int[1000];
+            var result = new int[1000];
+            var random = new Random();
+            for (var i = 0; i < intArray.Length; i++)
+            {
+                intArray[i] = random.Next();
+                result[i] = intArray[i];
+            }
+            InsertionSort.RecursiveInsertionSort(intArray);
+            Array.Sort(result);
+            Assert.AreEqual(result, intArray);
+        }
+        
+        [Test]
         public void ShellSortTest()
         {
             var intArray = new int[1000];
@@ -93,6 +109,23 @@ namespace TestSort
             }
             MergeSort.Sort(intArray);
             Array.Sort(result);
+            Assert.AreEqual(result, intArray);
+        }
+        
+        [Test]
+        public void ReverseMergeSortTest()
+        {
+            var intArray = new int[1000];
+            var result = new int[1000];
+            var random = new Random();
+            for (var i = 0; i < intArray.Length; i++)
+            {
+                intArray[i] = random.Next();
+                result[i] = intArray[i];
+            }
+            MergeSort.SortAsc(intArray);
+            Array.Sort(result);
+            Array.Reverse(result);
             Assert.AreEqual(result, intArray);
         }
         
@@ -144,6 +177,18 @@ namespace TestSort
             RadixSort.Sort(intArray, 10, 4);
             QuickSort.Sort(result);
             Assert.AreEqual(result, intArray);
+        }
+        
+        [Test]
+        public void StringRadixSortTest()
+        {
+            var stringArray = new string[]{"bcdef", "dbaqc", "abcde", "omadd", "bbbbb"};
+            var result = new string[]{"bcdef", "dbaqc", "abcde", "omadd", "bbbbb"};
+
+            //Radix taban, width basamak
+            RadixSort.StringSort(stringArray, 10, 4);
+            Array.Sort(result);
+            Assert.AreEqual(result, stringArray);
         }
 
         [Test]

@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "5is714gdPQdwAiYXWoJaDBRwe23yDB68F/ePPsi033ns+0wVj2xgkC3EXVB5q5NHyGA8Up7HINc1xO84p135Mw==",
+=======
+  "dgSpecHash": "oYqg9EoUatXk31zQvztzWV8W3RdUcVMiHaW9bEZ81Xtq7KYTYj1U++ET/lFcFywcX4zPO9RWcNtakE024DJFHA==",
+>>>>>>> Stashed changes
   "success": true,
   "projectFilePath": "C:\\Users\\Felladien\\source\\repos\\Analysis-Of-Algorithms\\SortAlgorithms\\SortAlgorithms.csproj",
   "expectedPackageFiles": [],

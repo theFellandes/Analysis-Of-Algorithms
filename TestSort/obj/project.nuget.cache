@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "ZKbZDso95NCYBmwhZWLA/iotpUg3SxboIccOrDlL/FMdEdpCu/q9kaSz+KpaB7wutzojqE20BZtZR0cAez0ASA==",
+=======
+  "dgSpecHash": "ToRr6sfG9FbnRdl/2OBDxaWMNG8L9VfBX0gzcm5R9elQqlHX6xqqDUwtIMgxjeCHwS8kT6bIii2deZed0tAZxQ==",
+>>>>>>> Stashed changes
   "success": true,
   "projectFilePath": "C:\\Users\\Felladien\\source\\repos\\Analysis-Of-Algorithms\\TestSort\\TestSort.csproj",
   "expectedPackageFiles": [

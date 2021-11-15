@@ -31,6 +31,30 @@ namespace SortAlgorithms.Sorts
             }
         }
 
+        public static void recursiveSort(int[] intArray, int numItems)
+        {
+            if (numItems < 2)
+            {
+                return;
+            }
+            
+            recursiveSort(intArray, numItems - 1);
+            var newElement = intArray[numItems - 1];
+            int i;
+            for (i = numItems - 1; i > 0 && intArray[i - 1] > newElement; i--)
+            {
+                //shifting the element Left to right shifting.
+                intArray[i] = intArray[i - 1];
+            }
+
+            intArray[i] = newElement;
+        }
+        
+        public static void RecursiveInsertionSort(int[] intArray)
+        {
+           recursiveSort(intArray, intArray.Length);
+        }
+
         public static void ShellSort(int[] intArray)
         {
             int k = 1;
